@@ -28,21 +28,21 @@
     margin-left: 20px;
   }
   a {
-    color: rgba(255,255,255,0.6);
+    color:#433f5f;
     text-decoration: none;
     &:hover {
       color: rgba(255,255,255,0.8);
     }
   }
   a[aria-current="page"] {
-    color: rgba(255,255,255,1)
+    color: #433f5f;
   }
   .menu-trigger {
     display: none;
     font-size: 24px;
     background: none;
     border: none;
-    color: white;
+    color: #433f5f;
     padding: 0;
     cursor: pointer;
   }
@@ -95,7 +95,7 @@
 .site-logo {
   font-weight: bold;
   a {
-    color: #fff;
+    color: #433f5f;
 		text-decoration: none;
 		&:hover {
 			color: #fff;
