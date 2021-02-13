@@ -108,7 +108,7 @@ collections:
               - widget: image
                 name: image
                 label: image
-                default: '/assets/favicon.png'
+                default: '/assets/stackrole.png'
               - widget: image
                 name: iconimage
                 label: favicon
