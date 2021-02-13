@@ -2,7 +2,6 @@
 import { jsx } from 'theme-ui'
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
-import { RiArrowRightSLine } from "react-icons/ri"
 import { RiFacebookBoxFill, RiTwitterFill, RiLinkedinBoxFill, RiYoutubeFill, RiInstagramFill, RiRssFill, RiGithubFill, RiTelegramFill, RiPinterestFill, RiSnapchatFill, RiSkypeFill,RiDribbbleFill, RiMediumFill, RiBehanceFill} from "react-icons/ri";
 import { FaWordpress, FaVk} from "react-icons/fa";
 
@@ -28,10 +27,6 @@ export const pageQuery = graphql`
               src
             }
           }
-        }
-        cta {
-          ctaText
-          ctaLink
         }
       }
     }
@@ -79,15 +74,6 @@ const HomePage = ({ data }) => {
             {frontmatter.tagline}
           </p>
           <div className="description" dangerouslySetInnerHTML={{__html: html}}/>
-          <Link 
-            to={frontmatter.cta.ctaLink} 
-            className="button"
-            sx={{
-              variant: 'links.button'
-            }}
-          >
-            {frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine/></span>
-          </Link>
           <div  className="social-icons" sx={indexStyles.socialIcons}>
             {sIcons}
           </div>

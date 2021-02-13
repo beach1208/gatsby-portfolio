@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Nagisa.K",
     "titleTemplate": "%s",
     "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
     "siteUrl": "https://foundation.stackrole.com",
     "image": "/assets/top-img.png",
-    "iconimage": "/assets/stackrole.png",
+    "iconimage": "/assets/favicon.ico",
     "twitterUsername": "@stackrole"
   },
   "ga": "UA-XXXXXXXXX-X"

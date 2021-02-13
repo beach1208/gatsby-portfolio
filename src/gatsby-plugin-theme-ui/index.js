@@ -1,6 +1,6 @@
 export default {
   colors: {
-    text: '#000',
+    text: '#433f5f',
     background: '#fdfaff',
     primary: '#fdfaff',
     accent: '#fff',
@@ -11,13 +11,13 @@ export default {
     inputBorder: "#aaa",
     inputBackground: "#fff",
     socialIcons:"#a8959e",
-    socialIconsHover:"#5c2941",
+    socialIconsHover:"#c73636",
     modes: {
       dark: {
         text: '#f5f5f5',
         background: '#111',
         primary: '#252525',
-        accent: '#5C2941',
+        accent: '#c73636',
         muted: 'rgba(255, 255, 255, 0.7)',
         buttonAccent: '#fff',
         cardBg: '#252525',

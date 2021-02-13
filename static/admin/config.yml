@@ -60,16 +60,6 @@ collections:
         - {label: "Tagline", name: "tagline", widget: "string"}
         - {label: "Featured Image", name: "featuredImage", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
-        - label: "CTA"
-          name: "cta"
-          widget: "object"
-          fields: 
-            - name: "ctaText"
-              label: "CTA text"
-              widget: "string"
-            - name: "ctaLink"
-              label: "CTA Link"
-              widget: "string" 
       - label: "About"
         name: "about"
         file: "src/content/pages/about.md"
@@ -118,7 +108,7 @@ collections:
               - widget: image
                 name: image
                 label: image
-                default: '/assets/stackrole.png'
+                default: '/assets/favicon.ico'
               - widget: image
                 name: iconimage
                 label: favicon
