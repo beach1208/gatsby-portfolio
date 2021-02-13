@@ -108,7 +108,7 @@ collections:
               - widget: image
                 name: image
                 label: image
-                default: '/assets/favicon.ico'
+                default: '/assets/favicon.png'
               - widget: image
                 name: iconimage
                 label: favicon
