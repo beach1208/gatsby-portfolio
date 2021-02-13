@@ -1,5 +1,6 @@
 {
   "meta": {
+<<<<<<< HEAD
     "title": "Nagisa.K",
     "titleTemplate": "%s",
     "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
@@ -7,6 +8,15 @@
     "image": "/assets/top-img.png",
     "iconimage": "/assets/favicon.ico",
     "twitterUsername": "@stackrole"
+=======
+    "title": "Nagisa.K Portfolio",
+    "titleTemplate": "Nagisa K",
+    "description": "A portfolio website customized with Gatsby starter kit.",
+    "siteUrl": "https://nagisa-k.netlify.app",
+    "image": "/assets/top-img.png",
+    "iconimage": "/assets/favicon.ico",
+    "twitterUsername": ""
+>>>>>>> 02eef4e9ac3bf0f4070a0c2be222dc14f3f69f02
   },
   "ga": "UA-XXXXXXXXX-X"
 }
