@@ -98,6 +98,7 @@ const HomePage = ({ data }) => {
               fluid={Image} 
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
+              placeholderStyle={{ visibility: "hidden" }}
             />
           ) : ""}
         </div>
