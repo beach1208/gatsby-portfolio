@@ -16,6 +16,15 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Quicksand\:300,400,400i,700`
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
