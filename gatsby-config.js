@@ -19,7 +19,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Quicksand\:300,400,400i,700`
+          `Quicksand\:300,400,400i,700`,
+          `Petit Formal Script\:400,400i`
         ],
         display: 'swap'
       }
@@ -89,8 +90,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
-        short_name: `Foundation`,
+        name: `Nagisa.K`,
+        short_name: `Nagisa.K`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
