@@ -20,7 +20,8 @@ module.exports = {
       options: {
         fonts: [
           `Quicksand\:300,400,400i,700`,
-          `Petit Formal Script\:400,400i`
+          `Petit Formal Script\:400,400i`,
+          `Helvetica\:300,400,400i,700`
         ],
         display: 'swap'
       }
